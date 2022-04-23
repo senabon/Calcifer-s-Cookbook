@@ -1,0 +1,54 @@
+[
+    {
+        "recipe":"Calcifer's Breakfast",
+        "ingredients":["3 slices of bacon", "2 eggs","1 slice of bread"],
+        "directions":""
+
+
+
+    },
+    {
+        "recipe": "Ponyo's Ramen"
+
+
+
+    },
+    {
+        "recipe": "Haku's Onigiri"
+
+
+
+
+    },
+    {
+        "recipe": "Kiki's Pumpkin and Herring Pie",
+        "ingredients": ["1/2 kobacha","1/2 diced onion","1 tbsp olive oil","1 can herring or any white fish","1 slice of bread",
+        "2 puff pastry sheets", "1/2 cup sliced black olives", "1-2 cups shredded white cheese of choice", "1 tbsp salt", "1 tbsp pepper",
+        "2 tbsp butter", "2 tbsp flour", "1 1/2 cup hot whole milk", "1 egg yolk"],
+        "directions":""
+
+
+    },
+    {
+        "recipe":"Princess Mononoke's Okayu",
+        "ingredients": ["2 cups dashi", "1/2 inch crushed ginger", "2 tbsp peeled and grated carrot",
+        "1/3 cup uncooked sushi rice", "2 tsp shiromiso", "1/4 cup chopped green onions", "2 tsp wakame"],
+        "directions":["In a small saucepan, bring the ginger, dashi and rice to a boil on low heat. Cover and let simmer for about 20 minutes, stirring occasionally.",
+        "Remove ginger. Stir in shiromiso until combined. Remove from heat and stir in carrots,green onions and wakame."]
+    },
+    {
+        "recipe":"Totoro's Bento Box"
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+]
