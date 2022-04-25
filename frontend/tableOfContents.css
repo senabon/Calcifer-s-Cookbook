@@ -1,0 +1,34 @@
+body {
+    background-image: url("parchment.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 30px;
+}
+
+ul, h1, footer{
+    font-family: 'IM Fell English', serif;
+    font-weight: 900;
+}
+
+#movies{
+    margin: 20px; 
+}
+
+#listContainer{
+    margin: 50px;
+}
+
+
+footer{
+    float: right; 
+}

@@ -5,7 +5,8 @@ require('ejs')
 
 const app = express()
 
-app.use(express.static('public'))
+app.use(express.static('frontend'))
+//app.use(express.static(__dirname + '/' + 'public'));
 app.use(methodeOverride('_method'))
 
 app.use(express.json());

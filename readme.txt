@@ -12,3 +12,14 @@ Stretch Goals
 -favorite recipes for future retrieval 
 
 
+
+
+
+Index.ejs
+-fill in the h1 so it pulls from foodRecipes.json
+-fill in ingredient and directions so it fills in from foodRecipes.json
+-fill in images so it pulls in from roodRecipes.json 
+
+** copy the zodiac routes **
+
+

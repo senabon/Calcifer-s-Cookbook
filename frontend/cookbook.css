@@ -1,0 +1,10 @@
+body{
+    background-image: url("calciferCookbook.jpg");
+    background-size:cover;
+}
+
+#button{
+    border-radius: 4px;
+    position: 90%;
+}
+
