@@ -1,40 +1,56 @@
 [
     {
-        "img":"",
-        "recipe":"Calcifer's Breakfast",
-        "ingredients":["3 slices of bacon", "2 eggs","1 slice of bread"],
-        "directions":""
+        "img":"https://giphy.com/gifs/howls-moving-castle-calcifer-gif-pq1PquPVI8M8M",
+        "recipe":"Howl's Breakfast",
+        "ingredients":["3 slices of thick cut bacon", "2 eggs","1 slice of bread", "block of white cheddar cheese", "fresh baked bread"],
+        "directions":["Heat your skillet on medium-high heat and then on one side of a large pan, place the bacons strips. Cook for about 10-15 mintues until cripsy, flipping halfway. Add in eggs towards the end and cook until they are sunny side.",
+        "Remove bacon and place on paper towel to absorb grease. Drain excess grease from bacon. Slice bread and place slices on skillet and grill for about 2 minutes on each side.",
+        "Remove toast and add slices of white cheddar."]
 
 
 
     },
     {
-        "img":"",
-        "recipe": "Ponyo's Ramen"
+        "img":"https://giphy.com/gifs/food-TNeilKIVOAKmk",
+        "recipe": "Ponyo's Ramen",
+        "ingredients":["6 lb pork neck bones","3 oz sliced ginger", "1 large leek chopped in half and washed","2 garlic bullbs", "2 cloves of garlic (1 smashed and one whole)", "1 1/2 oz kombu", "1 cube chicken boullion",
+            "2 lb pork belly or butt", "3 oz beansprouts", "1 portion ramen noodles", "2 chopped green onions", "1 soft boiled egg", "1 1/2 cup soy sauce"," 3/4 cup sake","3/4 cup mirin", "24 cups cold water"],
+        "directions": ["Soak porkneck bones in cold water for one hour (make sure the water is covering the pork bones. In a large pot bring enough water to cover the pork bones to a boil", "Drop the pork neck bones ino the water and let blanch for 5-8 minutes",
+        "When the wate reaches a boil again, drain the water. Rinse each pork bones under cold running water.", "Rinse pot and bring pork bones, leeks , the 2 garlic bulbs, leeks, kombu and bullion to a boild with the 24 cups of water.",
+        "After it has reached a boil, let boil for 15 minutes. While it is boiling, skim the foam and anything else from the top (do not stir soup while skimming).","Add bechamel sauce to kabocha mix and continue to mix until creamy.",
+        "Cover, reduce heat to medium and let simmer for 3 hours.","Next add 2lbs of pork into the broth tocreate chashu. Cook pork until its tender and cooke dall the way through (about 1hr and 20 mintues for one big slab and 45 minutes for 2 1lb pieces.",
+        "Now lets make tare! In a sauce pan, bring soy sauce, sake, mirin, 1 oz sliced ginger and the crushed garlic clove to a boil over high heat. Let boil for 5-7 minutes and then remove from heat to cool."]
 
 
 
     },
     {
-        "img":"",
-        "recipe": "Haku's Onigiri"
+        "img":"https://giphy.com/gifs/food-coronavirus-covid19-gKZmtIhKnE7BjaCkkK",
+        "recipe": "Haku's Onigiri",
+        "ingredients":["3 cups of cooked sushi rice","water","salt","nori sheets(cut into small rectangles", "umeboshi (for rice center)"],
+        "directions":["Seperate cooked sushi rice into equal portions (about one large handful). Wet your hands with the water and rub together with a pinch of salt",
+            "Pick up one handful of rice make an indent and place in umeboshi. Fold the rice over the filling and mold into a ball. "  ]
 
 
 
 
     },
     {
-        "img":"",
+        "img":"https://64.media.tumblr.com/3349532e5ce2193d015c98c01de213f4/tumblr_ppqx9jVlQw1vapvss_500.gifv",
         "recipe": "Kiki's Pumpkin and Herring Pie",
         "ingredients": ["1/2 kobacha","1/2 diced onion","1 tbsp olive oil","1 can herring or any white fish","1 slice of bread",
         "2 puff pastry sheets", "1/2 cup sliced black olives", "1-2 cups shredded white cheese of choice", "1 tbsp salt", "1 tbsp pepper",
         "2 tbsp butter", "2 tbsp flour", "1 1/2 cup hot whole milk", "1 egg yolk"],
-        "directions":""
+        "directions":["Remove the seeds from the kabocha and cut into small pieces. Steam for about 15 minutes or until softened and then remove skin. Set to the side in a medium sized bowl.",
+             "Finely shop the onion and heat in a medium pan with an oil of your choice. Cook until translucent. Add cooked onions to kobacha and mix thoroughly.", "Bechamel Sauce:","Heat the butter in a small saucepan over medium heat until melted.",
+             "Whisk in 2 tbsp of flour until you see bubbles. Pour in hot milk while continuing to whisk. Add salt and pepper as desired and continue whisking until the sauce has thickened.", "Add bechamel sauce to kabocha mix and continue to mix until creamy.",
+             "Add slat and pepper as desired. Put mixture into casserole dish. Placed herring on top of mixture. Place a thin sheet of puff pastry dough over the top. With the other sheet of pastry dough, cut out a fish design and place it on top. Mix 1 tbsp milk and 1 egg yolk to creat an egg wash.",
+             "Put the egg wash on the top of the dough without leaving any pools of the mixture. Place a ring of olives around the edge of the casserole. Bake for 25-30 miutes at 375 degrees Fahrenheit."]
 
 
     },
     {
-        "img":"",
+        "img":"https://data.whicdn.com/images/214651023/original.gif",
         "recipe":"Princess Mononoke's Okayu",
         "ingredients": ["2 cups dashi", "1/2 inch crushed ginger", "2 tbsp peeled and grated carrot",
         "1/3 cup uncooked sushi rice", "2 tsp shiromiso", "1/4 cup chopped green onions", "2 tsp wakame"],
@@ -42,9 +58,13 @@
         "Remove ginger. Stir in shiromiso until combined. Remove from heat and stir in carrots,green onions and wakame."]
     },
     {
-        "img":"",
-        "recipe":"Totoro's Bento Box"
-
+        "img":"https://giphy.com/gifs/maudit-my-neighbor-totoro-gZ0RLQVrNbw7S",
+        "recipe":"Satsuki's Bento Box",
+        "ingredients":["1 Bento box", "1 cup cookedwhite rice", "1 umeboshi", "1 shishamo", "1 tbsp oil", "1 cup frozen edamame", "1 tbsp sakura denbu"],
+        "directions":["Fill 3/4 of your Bento box with the cooked white rice. Levae about a half inch of space between the rice and the top of the container to make room for toppings",
+        "Put ht eumeboshi on one side of the rice. Use the oil to cook the shishamo on both sides on a medium-high temperature. Place the cooked shishamo in the middle of the rice to create a line of seperation.",
+        "Boil the edamame in a pot according to package instructions. Remove the edamame beans out of the cooked pods. Place the beans on a 1/4 of the rice on the side not containing the emboshi.",
+        "Sprinkle the sakura denbu next to the edamame (on the remaining 1/4 of the rice)."]
 
 
 

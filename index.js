@@ -1,17 +1,22 @@
 const express = require('express')
-const methodOverride = require('method-ovverride')
-const foodController = require('./controllers/foodController')
-require('ejs')
-
+const ejsLayout = require('express-ejs-layouts')
+const cors = require('cors')
 const app = express()
+const methodOverride = require('method-override');
+
+const foodController = require('./controllers/foodController')
+
+app.set('view engine', 'ejs')
+app.use(ejsLayout);
 
 app.use(express.static('frontend'))
-//app.use(express.static(__dirname + '/' + 'public'));
-app.use(methodeOverride('_method'))
 
-app.use(express.json());
+app.use(methodOverride('_method'));
+app.use(cors())
+//*check this method (error for method-override is coming up)
+
 app.use(express.urlencoded({extended:true}))
-app.set('view engine', 'ejs')
+app.use(express.json());
 
 app.use(foodController);
 

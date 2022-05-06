@@ -23,3 +23,13 @@ Index.ejs
 ** copy the zodiac routes **
 
 
+Do I need to do movie.title to indicate that I started with the movie and linked to the recipe. 
+-link table ofcontents to my recipes
+-pull recipe from database (lok at zodiac.ejs)
+-add a new recipe
+-delete any of the added recipes (not the ones already in the database)
+
+
+
+
+I had a second job up until this past weekend 

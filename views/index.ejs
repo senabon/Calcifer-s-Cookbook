@@ -1,3 +1,16 @@
-<link rel = "stylesheet" type="css" href="styless.css"/>
+<link rel = "stylesheet" type="css" href="ejsStyle.css"/>
 
-<h1></h1>
+<h1>
+<%=recipe %>
+
+</h1>
+
+<img src='<%=img%>' height=300/>
+
+<% recipes.forEach(i =>{ %>
+    <div>
+        <a href='<%=recipe%>'></a>
+            <%=title %>
+    </div>
+
+<% }) %>
