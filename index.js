@@ -9,17 +9,21 @@ const foodController = require('./controllers/foodController')
 app.set('view engine', 'ejs')
 app.use(ejsLayout);
 
-app.use(express.static('frontend'))
+app.use(express.urlencoded({extended:true}))
+app.use(express.json());
+
 
 app.use(methodOverride('_method'));
 app.use(cors())
 //*check this method (error for method-override is coming up)
 
-app.use(express.urlencoded({extended:true}))
-app.use(express.json());
-
 app.use(foodController);
 
-app.listen(8888, ()=>{
-    console.log('app running');
+app.set('views', 'views')
+app.use(express.static('frontend'))
+
+app.set("port", process.env.PORT || 8888)
+
+app.listen(app.get("port"), ()=>{
+    console.log(`PORT:${app.get('port')}`);
 })

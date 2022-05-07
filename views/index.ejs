@@ -1,16 +1,29 @@
-<link rel = "stylesheet" type="css" href="ejsStyle.css"/>
+<body>
+
+<link rel = "stylesheet" type="text/css" href="ejsStyle.css"/>
 
 <h1>
-<%=recipe %>
+Ghibli Recipes
 
 </h1>
 
-<img src='<%=img%>' height=300/>
 
-<% recipes.forEach(i =>{ %>
+<% stuff.forEach(i =>{ %>
     <div>
-        <a href='<%=recipe%>'></a>
-            <%=title %>
+            <%=i.recipe %>
+            <img src="<%=i.img %>" height="300"/>
+            <%=i.ingredients %>
+            <%=i.directions %>
+
+            <a class="button submit" href="/<%=i.id %>">Edit</a>
+
+            <form action="/<%=i.id %>/?_method=DELETE" method="POST" class="delete">
+                <input type="submit "value="Delete" class="delete-button"/>
+            </form>
     </div>
 
 <% }) %>
+
+<a href="/new">Add Your Own</a>
+
+</body>

@@ -1,5 +1,62 @@
 <link rel = "stylesheet" type="css" href="ejsStyle.css"/>
 
-<h1>Add Your Own Recipes</h1>
+<body>
 
-<button>Add</button>
+
+    <h1>Add Your Own Recipes</h1>
+
+    <form action="/recipes" method="POST"></form>
+<div>
+    <form>
+        <input type="radio" id="totoro" name="movieChoice1" value="MyNeighborTotoro">
+        <label for="totoro">My Neighbor Totoro</label><br>
+
+        <input type="radio" id="ponyo" name="movieChoice2" value="Ponyo">
+        <label for="ponyo">Ponyo</label><br>
+
+        <input type="radio" id="kiki" name="movieChoice3" value="KikisDeliveryService">
+        <label for="kiki">Kiki's Delivery Service</label><br>
+
+        <input type="radio" id="spirited" name="movieChoice4" value="SpiritedAway">
+        <label for="spirited">Spirited Away</label><br>
+
+        <input type="radio" id="howl" name="movieChoice4" value="HowlsMovingCastle">
+        <label for="howl">Howl's Moving Castle</label><br>
+
+        <input type="radio" id="mononoke" name="movieChoice5" value="PrincessMononoke">
+        <label for="mononoke">Princess Mononoke</label><br>
+    </form>
+</div>
+
+
+
+<div>
+    <label for="picture">Add An Image:</label>
+    <input type="url" id="picture" name="picture"/>
+</div>
+
+<div>
+    <label for="recipeTitle">Recipe Name:</label>
+    <input type="text" class="form-control" name="nameOfRecipe" id="recipeTitle"/>
+</div>
+
+
+<div>
+    <label for="ingredients">Ingredients:</label><br>
+    <textarea id="ingredients" class="form-contol" name="ingredients" rows="6" cols="30">
+    </textarea>
+
+</div>
+
+
+<div>
+    <label for="directions">Directions:</label><br>
+    <textarea id="directions" class="form-contol" name="directions" rows="20" cols="30">
+    </textarea>
+</div>
+
+    <input type="submit" class="btn" value="Add" href="">
+
+
+
+<body></body>
