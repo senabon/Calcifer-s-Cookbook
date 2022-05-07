@@ -1,8 +1,8 @@
 <link rel = "stylesheet" type="css" href="ejsStyle.css"/>
 
-<hi>Edit Your Recipes</hi>
+<hi>Edit Recipes</hi>
 
-<form action="/<%=id%>/?_method=put" method="POST">
+<form action="/<%=id%>/?_method=PUT" method="POST">
 
 
 
@@ -16,15 +16,27 @@
     <input type="text" id="recipeTitle" name="recipeTitle" class="form-control" value="<%=recipe%>"/>
 </div>
 
+<div>
+
+    <label for="ingredients">Ingredients:</label><br>
+    <textarea id="ingredients" name="ingredients" class="form-control" rows="6" cols="30">
+        <%=ingredients%>
+    </textarea>
+</div>
 
 
+<div>
+
+    <label for="directions">Directions:</label><br>
+    <textarea id="directions" name="directions" class="form-control" rows="20" cols="30">
+        <%=directions%>
+    </textarea>
+</div>
 
 
-
-
+<input type="submit" class=" button back-to-index" value="Edit">
+<a type="submit" href="/index" class="btn">Go Back</a>
 
 
 
 </form>
-
-<button>Edit</button>

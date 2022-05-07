@@ -4,14 +4,6 @@ const Recipe = require('../models/recipeModel'); //// model for recipes
 
 const router = express.Router();
 
-//all recipes
-router.get('/index', (req, res)=>{
-    Recipe.find({})
-    .then((items)=> res.render('index', {stuff: items}))
-    .catch((error)=>console.log(`route failed!:${error}`))
-});
-
-
 // //grabs information for bento box recipe 
 // router.get("/myneighbourtotoro", (req, res)=>{
 //     res.render("views/index", {
@@ -73,8 +65,14 @@ router.get('/index', (req, res)=>{
 //     })
 // })
 
+//all recipes
+router.get('/', (req, res)=>{
+    Recipe.find({})
+    .then((items)=> res.render('index', {stuff: items}))
+    .catch((error)=>console.log(`route failed!:${error}`))
+});
 
-//gets by id
+
 router.get('/index', (req, res)=>{
     Recipe.find({})
     .then((recipes)=>{
@@ -85,41 +83,43 @@ router.get('/index', (req, res)=>{
 
 //creates a new recipe                             -----create------
 //redirect
+
+
 router.get('/new', (req,res)=>{
     console.log("new route");
     res.render('new')
-    .catch((error)=>console.log(`route failed!:${error}`))
 })
+
+
 //creates and returns
-router.post("/", (req, res)=>{
+router.post('/add', (req, res)=>{
     Recipe.create(req.body)
-        .then(()=>res.redirect('index'))
+        .then(()=>res.redirect('/'))
         .catch((error)=>console.log(`route failed!:${error}`))
 })
 
 
 //deletes recipes                                   -----delete-----
 router.delete("/:id", (req, res)=>{
-    Recipe.findOneAndRemove({_id: req.params.id})
-        .then(()=> res.redirect('index')) /////check this line
+    Recipe.findOneAndRemove({_id: req.params.id}, req.body)
+        .then((items)=> res.redirect('/index')) /////check this line
         .catch((error)=>console.log(`route failed!:${error}`))
 })
 
 //updates added recipes                                        ------update------
 router.put("/:id", (req, res)=>{
-    Recipe.findOneAndUpdate({_id: req.params.id}, 
-        { img: req.body.img,
-        recipe: req.body.recipe,
-        ingredients: req.body.ingredients,
-        directions:req.body.directions},
-        {new: true})
-        .then((recipe)=> res.render('index', recipe))
+    Recipe.findOneAndUpdate({_id: req.params.id}, req.body)
+        .then((items)=> res.redirect('/index'))
         .catch((error)=>console.log(`route failed!:${error}`))
 })
 
-//displays the added recipe to the db ***display this in a seperate area or under the corresponding movie?***
-router.get("/new", (req, res)=>{
-    res.render('new')
+router.get("/:id", (req, res)=>{
+    Recipe.findById({_id: req.params.id})
+    .then(items=>{
+        res.render('edit', items)
+    })
+    .catch((error)=>console.log(`route failed!:${error}`))
 })
+
 
 module.exports = router;

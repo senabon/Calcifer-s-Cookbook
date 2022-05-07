@@ -12,7 +12,6 @@ app.use(ejsLayout);
 app.use(express.urlencoded({extended:true}))
 app.use(express.json());
 
-
 app.use(methodOverride('_method'));
 app.use(cors())
 //*check this method (error for method-override is coming up)
